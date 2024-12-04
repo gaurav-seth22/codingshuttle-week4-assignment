@@ -4,11 +4,13 @@
 The Currency Converter application is a REST API that provides real-time currency conversion rates. It retrieves data from the [Free Currency](https://freecurrencyapi.com/) API and calculates the converted value based on the input.
 
 ### Characterstics
-Converts from one currency to another on the basis of units
-Rest Integration with free currency app
-Url logging
-Actuator configuration
-Swagger UI Support to test API.
+- Converts from one currency to another on the basis of units.
+- Rest Integration with free currency app.
+- Url logging.
+- Actuator configuration.
+- Swagger UI Support to test API.
+- Custom log pattern.
+- Rolling file-based logging with time and size based rotation.
 
 ### Endpoint URL
 GET http://localhost:8080/convertCurrency?fromCurrency=USD&toCurrency=AUD&units=500
