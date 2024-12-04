@@ -1,0 +1,23 @@
+2024-12-04 17:19:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 17:19:41 [restartedMain] INFO  c.c.c.CurrencyconverterApplication - Starting CurrencyconverterApplication using Java 17 with PID 22852 (D:\FullStack CodingShuttle\currencyconverter\target\classes started by Gaurav in D:\FullStack CodingShuttle\currencyconverter)
+2024-12-04 17:19:41 [restartedMain] INFO  c.c.c.CurrencyconverterApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-04 17:19:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-04 17:19:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-04 17:19:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-04 17:19:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-04 17:19:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-04 17:19:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-04 17:19:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-04 17:19:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2066 ms
+2024-12-04 17:19:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-04 17:19:45 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-12-04 17:19:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-04 17:19:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-04 17:19:45 [restartedMain] INFO  c.c.c.CurrencyconverterApplication - Started CurrencyconverterApplication in 4.208 seconds (process running for 4.759)
+2024-12-04 17:20:07 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 17:20:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-04 17:20:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-04 17:20:07 [http-nio-8080-exec-1] INFO  c.c.c.clients.CurrencyClient - Converted currency retrieval
+2024-12-04 17:20:09 [http-nio-8080-exec-1] INFO  c.c.c.clients.CurrencyClient - Constructed URL: https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_916oBgZtcjbXu10nMHKW72ySF4UVfJ0ranCap1Wg&base_currency=CAD&currencies=AUD
+2024-12-04 17:20:32 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-04 17:20:33 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
